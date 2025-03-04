@@ -3,34 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JS Sample 1</title>
+    <title>Document</title>
 </head>
 <body>
-    <h1>Js Exercise 3</h1>
+    <h1>JS Exercise 3</h1>
     <table>
         <tr>
             <td>
-                <label for="num1">Enter First Number:</label>
+                <label for="input">Enter a Number:</label>
             </td>
             <td>
-                <input type="text" name="num1" id="num1">
+                <input type="text" name="input" id="input">
             </td>
-        
-                
         </tr>
-    </table> 
+        <tr>
+            <td>
+                <button onclick="concatenate()">Insert</button>
+                <button onclick="clearEntries()">Delete All</button>
+            </td>
+        </tr>
+    </table>
 
-    <br>
+    <p style="font-weight: bold;">Numbers:</p>
+    <p id="elements"></p>
+    <p>Sum:  <span id="sum"></span></p>
+    <p>Highest:  <span id="high"></span></p>
+    <p>Lowest:  <span id="low"></span></p>
 
-    <button onclick="Insert()">Insert</button>
-    <button onclick="Delete()">Delete</button>
-
-    <p>Numbers: <span id="num"></span></p>
-
-    <p>Sum: <span id="sum"></span></p>
-    <p>Highest <span id="high"></span></p>
-    <p>Lowest: <span id="low"></span></p>
-    
     <script src="basic.js"></script>
 </body>
 </html>
