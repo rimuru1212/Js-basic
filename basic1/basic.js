@@ -9,14 +9,8 @@ function calculate() {
     if(!(num1Txt.value === "" || num2Txt.value === "")) {
         
         sum = parseInt(num1Txt.value) + parseInt(num2Txt.value);
-        resultTxt.innerHTML = sum;
-    }
-    function calculate() {
-        if(!(num1Txt.value === "" || num2Txt.value === "")) {
-            
-            dif = parseInt(num1Txt.value) - parseInt(num2Txt.value);
-            resultTxt.innerHTML = dif;
-        }
+        dif = parseInt(num1Txt.value) - parseInt(num2Txt.value);
+        resultTxt.innerHTML = sum, dif;
     }
 }
 
